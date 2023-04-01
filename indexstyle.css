@@ -1,0 +1,317 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.cover_img {
+	/*border: 2px solid black;*/
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-color: #464646;
+}
+
+img {
+	transition-duration: 0.5s;
+}
+
+img:hover {
+	transform: translateY(-5px);
+}
+
+.welcome_note {
+	text-align: center;
+	padding: 50px;
+	color: white;
+	background-color: darkcyan;
+}
+
+.subj_panel_head {
+	/*border: 2px solid black;*/
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	background-color: #464646;
+	color: white;
+}
+
+.subj_panel {
+	/*border: 2px solid black;*/
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	background-color: lightseagreen;
+	background-image: url("img/subj-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.95;
+
+}
+
+.subj_container {
+	/*border: 2px solid black;*/
+	display: block;
+}
+
+
+.maths {
+	border: 5px ridge #464646;;
+	border-radius: 10px;
+	display: inline-block;
+	height: 150px;
+	width: 250px;
+	margin: 40px;
+	background-image: url("img/math-img.jpg");
+	background-repeat: no-repeat;
+	background-size: 250px 150px;
+	text-align: center;
+	padding-top: 50px ;
+	vertical-align: middle;
+	background-color: lime;
+	color: antiquewhite;
+	position: relative;
+}
+
+.maths h2 {
+	color: antiquewhite;
+	text-shadow: -1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+}
+
+.maths:hover:after {
+	content: '';
+  	position: absolute;
+  	top: -5px;
+  	left: -5px;
+	right: -5px;
+  	bottom: -5px;
+  	background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  	z-index: -1;
+  	border-radius: 10px;
+}
+
+.maths:hover:before {
+	content: '';
+  	position: absolute;
+  	top: -5px;
+  	left: -5px;
+	right: -5px;
+  	bottom: -5px;
+  	background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  	z-index: -2;
+  	filter: blur(15px);
+}
+
+
+.physics {
+	border: 5px ridge #464646;
+	border-radius: 10px;
+	display: inline-block;
+	height: 150px;
+	width: 250px;
+	margin: 40px;
+	background-image: url("img/Physic-img.jpg");
+	background-repeat: no-repeat;
+	background-size: 250px 150px;
+	text-align: center;
+	padding-top: 50px ;
+	vertical-align: middle;
+	background-color: slateblue;
+	color: antiquewhite;
+	position: relative;
+}
+
+.physics:hover:after {
+	content: '';
+  	position: absolute;
+  	top: -5px;
+  	left: -5px;
+	right: -5px;
+  	bottom: -5px;
+  	background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  	z-index: -1;
+  	border-radius: 10px;
+}
+
+.physics:hover:before {
+	content: '';
+  	position: absolute;
+  	top: -5px;
+  	left: -5px;
+	right: -5px;
+  	bottom: -5px;
+  	background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  	z-index: -2;
+  	filter: blur(15px);
+}
+
+.physics h2 {
+	color: antiquewhite;
+	text-shadow: -1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+}
+
+
+.bio {
+	border: 5px ridge #464646;
+	border-radius: 10px;
+	display: inline-block;
+	height: 150px;
+	width: 250px;
+	margin: 40px;
+	background-image: url("img/Biology-img.jpg");
+	background-repeat: no-repeat;
+	background-size: 250px 150px;
+	text-align: center;
+	padding-top: 50px ;
+	vertical-align: middle;
+	background-color: slateblue;	
+	position: relative;
+}
+
+.bio:hover:after {
+	content: '';
+  	position: absolute;
+  	top: -5px;
+  	left: -5px;
+	right: -5px;
+  	bottom: -5px;
+  	background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  	z-index: -1;
+  	border-radius: 10px;
+}
+
+.bio:hover:before {
+	content: '';
+  	position: absolute;
+  	top: -5px;
+  	left: -5px;
+	right: -5px;
+  	bottom: -5px;
+  	background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  	z-index: -2;
+  	filter: blur(15px);
+}
+
+.bio h2 {
+	color: antiquewhite;
+	text-shadow: -1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+}
+
+
+.chemistry {
+	border: 5px ridge #464646;;
+	border-radius: 10px;
+	display: inline-block;
+	height: 150px;
+	width: 250px;
+	margin: 40px;
+	background-image: url("img/chemistry-img.jpg");
+	background-repeat: no-repeat;
+	background-size: 250px 150px;
+	text-align: center;
+	padding-top: 50px ;
+	vertical-align: middle;
+	background-color: lightslategrey;
+	color: antiquewhite;
+	position: relative;
+}
+
+.chemistry:hover:after {
+	content: '';
+  	position: absolute;
+  	top: -5px;
+  	left: -5px;
+	right: -5px;
+  	bottom: -5px;
+  	background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  	z-index: -1;
+  	border-radius: 10px;
+}
+
+.chemistry:hover:before {
+	content: '';
+  	position: absolute;
+  	top: -5px;
+  	left: -5px;
+	right: -5px;
+  	bottom: -5px;
+  	background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+  	z-index: -2;
+  	filter: blur(15px);
+}
+
+.chemistry h2 {
+	color: antiquewhite;
+	text-shadow: -1px 1px 0 black, 1px 1px 0 black, 1px -1px 0 black, -1px -1px 0 black;
+}
+
+
+.Footer {
+	/*border: 2px solid black;*/
+	display: flex;
+	padding: 10px;
+	justify-content: center;
+	background-color: #071e26;
+	color: darkgray;
+}
+
+.col-1 {
+	/*border: 2px solid black;*/
+	flex: 1;
+	padding: 15px;
+}
+
+.col-1 p {
+	font-size: 20px;
+}
+
+.col-2 {
+	/*border: 2px solid black;*/
+	border-left: 2px solid cyan;
+	border-right: 2px solid cyan;
+	flex: 1;
+	padding: 25px;
+}
+
+.col-2 a {
+	text-decoration: none;
+	color: darkgray;
+}
+
+.col-3 {
+	/*border: 2px solid black;*/
+	flex: 1;
+	padding: 25px;
+}
+
+.fb-share, .insta-share, .whatsapp-share, .yt-share {
+	display: flex;
+	justify-content: left;
+	margin-bottom: 7px;
+}
+
+
+#fb, #insta, #whtsapp, #yt, #fb-p, #ins-p, #wa-p, #yt-p {
+	display: inline-block;
+	/*border: 2px solid black;*/
+}
+
+#fb-p, #ins-p, #wa-p, #yt-p {
+	padding-left: 8px;
+	padding-top: 10px;
+	text-decoration: none;
+	color: darkgray;
+}
+
+.foot-end {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background-color: #000;
+	color: darkgray;
+
+}
+
