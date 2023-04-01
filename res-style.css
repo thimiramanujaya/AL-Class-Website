@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(180deg, gray, antiquewhite);
+}
+
+.resource-container {
+	/*border: 1px solid black;*/
+	display: block;
+	margin: 50px;
+}
+
+.row-1, .row-2, .row-3 {
+	/*border: 1px solid black;*/
+	display: flex;
+	height: 180px;
+}
+
+.clm-1, .clm-2, .clm-3, .clm-4{
+	/*border: 5px solid blueviolet;*/
+	border-radius: 20px;
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	/*background-color: rgba(0, 255, 255, 0.6); */
+	background: linear-gradient(45deg, darkviolet, dodgerblue);
+	
+}
+
+/*
+.clm-1, .clm-2, .clm-3, .clm-4:hover:after {
+	border-radius: 1px;
+	/*background-color: rgba(0, 255, 255, 0.6); *
+	background: linear-gradient(45deg, darkviolet, red);
+	z-index: -1;
+}
+
+.clm-1, .clm-2, .clm-3, .clm-4:hover:before {
+	/*background-color: rgba(0, 255, 255, 0.6); *
+	background: linear-gradient(45deg, darkviolet, dodgerblue);
+	border-radius: 20px;
+	z-index: -2;
+} */
+
+
+.clm-1:hover, .clm-2:hover, .clm-3:hover, .clm-4:hover {
+	margin: 6px;
+	background: linear-gradient(45deg, darkviolet, antiquewhite);
+}
+
+figure {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #c7c7c6;
+}
+
+a:hover {
+	color: white;
+}
