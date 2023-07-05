@@ -13,24 +13,35 @@
 	background-color: #464646;
 }
 
-img {
+.cover_img img {
 	transition-duration: 0.5s;
+	width: 70%;
 }
 
-img:hover {
+.cover_img img:hover {
 	transform: translateY(-5px);
 }
 
 .welcome_note {
+	width: 100%;
 	text-align: center;
 	padding: 50px;
+	padding-top: 40px;
 	color: white;
 	background-color: darkcyan;
 }
 
+.welcome_msg {
+	width: 100%;
+	padding: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 13px;
+	background: aliceblue;
+}
+
 .subj_panel_head {
 	/*border: 2px solid black;*/
-	margin-top: 30px;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 25px;
@@ -261,11 +272,13 @@ img:hover {
 .col-1 {
 	/*border: 2px solid black;*/
 	flex: 1;
-	padding: 15px;
+	padding: 12px;
+	padding-right: 20px;
 }
 
 .col-1 p {
-	font-size: 20px;
+	font-size: 13px;
+	text-align: justify;
 }
 
 .col-2 {
