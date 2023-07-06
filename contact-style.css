@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, gray, antiquewhite);
+    height: 100vh;
+}
+
+.contc_descrip {
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 13px;
+}
+
+.cont_info_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    background-image: url("img/subj-bg.jpg");
+    color: rgb(240, 248, 255);
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cont_info_container a {
+    text-decoration: none;
+    color: rgb(240, 248, 255);
+}
+
+.col-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    background: linear-gradient(to bottom, #414547d0, #66686cd0);
+    border-radius: 5px;
+}
+
+.col-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    background: linear-gradient(to bottom, #414547d0, #66686cd0);
+    border-radius: 5px;
+}
+
+.contc_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 6px;
+    border: 1px purple solid;
+    background-color: rgba(119, 119, 119, 0.5);
+}
+
+.contc_info img {
+    margin: 8px;
+}
+
+.contc_info:hover {
+    background-color: rgb(159, 159, 159, 0.5);
+    border: 1px aliceblue solid;
+    cursor: pointer;
+}
+
+.share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 1px;
+    border-radius: 6px;
+    border: 1px purple solid;
+    background-color: rgba(119, 119, 119, 0.5);
+}
+
+.share img {
+    margin: 8px;
+}
+
+.share:hover {
+    background-color: rgb(159, 159, 159, 0.5);
+    border: 1px aliceblue solid;
+    cursor: pointer;
+}
