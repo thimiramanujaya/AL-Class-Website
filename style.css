@@ -64,3 +64,71 @@ nav a {
 nav a:hover {
 	color: white;
 }
+
+.Footer {
+	/*border: 2px solid black;*/
+	display: flex;
+	padding: 10px;
+	justify-content: center;
+	background-color: #071e26;
+	color: darkgray;
+}
+
+.col-1 {
+	/*border: 2px solid black;*/
+	flex: 1;
+	padding: 12px;
+	padding-right: 20px;
+}
+
+.col-1 p {
+	font-size: 13px;
+	text-align: justify;
+}
+
+.col-2 {
+	/*border: 2px solid black;*/
+	border-left: 2px solid cyan;
+	border-right: 2px solid cyan;
+	flex: 1;
+	padding: 25px;
+}
+
+.col-2 a {
+	text-decoration: none;
+	color: darkgray;
+}
+
+.col-3 {
+	/*border: 2px solid black;*/
+	flex: 1;
+	padding: 25px;
+}
+
+.fb-share, .insta-share, .whatsapp-share, .yt-share {
+	display: flex;
+	justify-content: left;
+	margin-bottom: 7px;
+}
+
+
+#fb, #insta, #whtsapp, #yt, #fb-p, #ins-p, #wa-p, #yt-p {
+	display: inline-block;
+	/*border: 2px solid black;*/
+}
+
+#fb-p, #ins-p, #wa-p, #yt-p {
+	padding-left: 8px;
+	padding-top: 10px;
+	text-decoration: none;
+	color: darkgray;
+}
+
+.foot-end {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background-color: #000;
+	color: darkgray;
+
+}
