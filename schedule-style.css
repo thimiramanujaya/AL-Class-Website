@@ -26,10 +26,10 @@
 .table-view {
 	width: 100%;
 	display: flex;
-	margin-top: 40px;
+	margin-top: 50px;
 	margin-left: 120px;
 	margin-right: 120px;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 	background-color: antiquewhite;
 }
 
@@ -48,10 +48,13 @@ th, td {
 }
 
 th {
-	height: 50px;
+	height: 80px;
 	background-color: darkcyan;
 }
 
+td {
+	height: 40px;
+}
 
 #in-1, #in-2, #in-3 {
 	background-color: lightslategrey;

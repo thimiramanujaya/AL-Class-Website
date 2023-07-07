@@ -14,13 +14,13 @@ body {
 	margin: 50px;
 }
 
-.row-1, .row-2, .row-3 {
+.row {
 	/*border: 1px solid black;*/
 	display: flex;
 	height: 180px;
 }
 
-.clm-1, .clm-2, .clm-3, .clm-4{
+.clm {
 	/*border: 5px solid blueviolet;*/
 	border-radius: 20px;
 	display: flex;
@@ -49,7 +49,7 @@ body {
 } */
 
 
-.clm-1:hover, .clm-2:hover, .clm-3:hover, .clm-4:hover {
+.clm:hover {
 	margin: 6px;
 	background: linear-gradient(45deg, darkviolet, antiquewhite);
 }
@@ -58,11 +58,11 @@ figure {
 	text-align: center;
 }
 
-a {
+.clm a {
 	text-decoration: none;
 	color: #c7c7c6;
 }
 
-a:hover {
+.clm a:hover {
 	color: white;
 }

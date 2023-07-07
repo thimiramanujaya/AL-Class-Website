@@ -13,12 +13,11 @@
 	transform: rotateZ(20deg);
 }
 
-.cls_name {
-	color: darkcyan;
+.cls_name a {
+	text-decoration: none;
 	text-shadow: -0.6px 0.6px 0 cyan, 0.6px 0.6px 0 cyan, 0.6px -0.6px 0 cyan, -0.6px -0.6px 0 cyan;
 	letter-spacing: 2px;
 	position: relative;
-	
 }
 
 .header {
