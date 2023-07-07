@@ -77,24 +77,3 @@ body {
     border: 1px aliceblue solid;
     cursor: pointer;
 }
-
-.share {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin: 1px;
-    border-radius: 6px;
-    border: 1px purple solid;
-    background-color: rgba(119, 119, 119, 0.5);
-}
-
-.share img {
-    margin: 8px;
-}
-
-.share:hover {
-    background-color: rgb(159, 159, 159, 0.5);
-    border: 1px aliceblue solid;
-    cursor: pointer;
-}

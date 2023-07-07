@@ -105,21 +105,18 @@ nav a:hover {
 	padding: 25px;
 }
 
-.fb-share, .insta-share, .whatsapp-share, .yt-share {
+.share {
 	display: flex;
 	justify-content: left;
-	margin-bottom: 7px;
+	align-items: center;
+	margin-bottom: 10px;
 }
 
-
-#fb, #insta, #whtsapp, #yt, #fb-p, #ins-p, #wa-p, #yt-p {
-	display: inline-block;
-	/*border: 2px solid black;*/
+.share img {
+	margin-right: 6px;
 }
 
-#fb-p, #ins-p, #wa-p, #yt-p {
-	padding-left: 8px;
-	padding-top: 10px;
+.share a {
 	text-decoration: none;
 	color: darkgray;
 }
