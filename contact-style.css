@@ -2,11 +2,17 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: sfdisplaypro !important;
+}
+
+@font-face {
+    font-family: sfdisplaypro;
+    src: url("SFPRODISPLAYREGULAR.OTF");
 }
 
 body {
     background: linear-gradient(180deg, gray, antiquewhite);
-    height: 100vh;
+    min-height: 100vh;  /*method to set the body height to the entire page*/
 }
 
 .contc_descrip {
@@ -28,6 +34,7 @@ body {
     color: rgb(240, 248, 255);
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 40px;
     padding: 10px;
     border-radius: 5px;
 }
@@ -62,6 +69,10 @@ body {
 
 .contc_info img {
     margin: 8px;
+}
+
+.contc_info a {
+    font-size: 13px;
 }
 
 .contc_info:hover {

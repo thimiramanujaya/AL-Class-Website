@@ -2,8 +2,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: sfdisplaypro !important;
 }
 
+@font-face {
+    font-family: sfdisplaypro;
+    src: url("SFPRODISPLAYREGULAR.OTF");
+}
 
 .cover_img {
 	/*border: 2px solid black;*/
@@ -29,6 +34,7 @@
 	padding-top: 40px;
 	color: white;
 	background-color: darkcyan;
+	font-size: 16px;
 }
 
 .welcome_msg {
@@ -47,6 +53,7 @@
 	padding-bottom: 25px;
 	background-color: #464646;
 	color: white;
+	font-size: 14px;
 }
 
 .subj_panel {
@@ -68,6 +75,10 @@
 	display: block;
 }
 
+.subj_container h2 {
+	font-size: 24px;
+}
+
 
 .maths {
 	border: 5px ridge #464646;;
@@ -75,7 +86,7 @@
 	display: inline-block;
 	height: 150px;
 	width: 250px;
-	margin: 40px;
+	margin: 35px;
 	background-image: url("img/math-img.jpg");
 	background-repeat: no-repeat;
 	background-size: 250px 150px;
@@ -123,7 +134,7 @@
 	display: inline-block;
 	height: 150px;
 	width: 250px;
-	margin: 40px;
+	margin: 35px;
 	background-image: url("img/Physic-img.jpg");
 	background-repeat: no-repeat;
 	background-size: 250px 150px;
@@ -171,7 +182,7 @@
 	display: inline-block;
 	height: 150px;
 	width: 250px;
-	margin: 40px;
+	margin: 35px;
 	background-image: url("img/Biology-img.jpg");
 	background-repeat: no-repeat;
 	background-size: 250px 150px;
@@ -213,12 +224,12 @@
 
 
 .chemistry {
-	border: 5px ridge #464646;;
+	border: 5px ridge #464646;
 	border-radius: 10px;
 	display: inline-block;
 	height: 150px;
 	width: 250px;
-	margin: 40px;
+	margin: 35px;
 	background-image: url("img/chemistry-img.jpg");
 	background-repeat: no-repeat;
 	background-size: 250px 150px;

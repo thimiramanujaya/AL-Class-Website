@@ -2,6 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: sfdisplaypro !important;
+}
+
+@font-face {
+    font-family: sfdisplaypro;
+    src: url("SFPRODISPLAYREGULAR.OTF");
 }
 
 body {
@@ -19,4 +25,16 @@ body {
     color: aliceblue;
     text-align: center;
     padding: 20px;
+}
+
+.details_container h2 {
+    font-size: 20px;
+}
+
+.details_container h3 {
+    font-size: 16px;
+}
+
+.details_container p {
+    font-size: 13px;
 }
